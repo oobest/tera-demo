@@ -1,0 +1,17 @@
+[package]
+name = "tera_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tera = "1.20.0"
+docx-rust = "0.1.8"
+hard-xml = "1.36.0"
+regex = "1.10.5"
+fancy-regex = "0.13.0"
+
+[source.crates-io]
+replace-with = 'rsproxy'
+
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
